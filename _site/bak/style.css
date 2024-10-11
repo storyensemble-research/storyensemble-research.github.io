@@ -1,0 +1,45 @@
+body {
+    background-color: currentcolor;
+}
+
+#header {
+	background-color: black;
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: lighter;
+    margin-top: 10vh;
+    padding: 34px;
+}
+
+#content {
+/*    background-color: white;*/
+    margin-top: 20px;
+    font-family: 'Open Sans';
+    padding: 30px 0px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-align: -webkit-center;
+}
+
+#content iframe {
+	min-height: 400px; max-height: 1200px
+}
+
+.container {
+
+}
+
+.title {
+	font-size: 2em;
+	margin-bottom: 1rem;
+}
+
+.authors {
+	font-size: 1.3em;
+	margin-bottom: 0.7rem;
+}
+
+.submission-id {
+	font-size: 1em;
+    margin-bottom: 0;
+}
