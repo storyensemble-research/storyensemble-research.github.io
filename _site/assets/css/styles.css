@@ -332,7 +332,7 @@ pre { display: block; font-size: 14px; color: #333; word-break: break-all; word-
 
 .button-container { display: flex; justify-content: center; align-items: center; gap: 16px; margin-top: 16px; }
 
-.button { display: flex; justify-content: center; align-items: center; gap: 8px; padding: 8px 16px; border-radius: 100px; background-color: #363636; color: #fff; fill: #fff; font-size: 16px; width: 80px; cursor: pointer; }
+.button { display: flex; justify-content: center; align-items: center; gap: 8px; padding: 8px 16px; border-radius: 100px; background-color: #363636; color: #fff; fill: #fff; font-size: 16px; max-width: 140px; cursor: pointer; }
 
 .button:visited { color: #fff; }
 
@@ -359,5 +359,9 @@ strong { font-weight: 500; }
 .credits { color: #777; font-size: 14px; margin-bottom: 0px; }
 
 @media (max-width: 600px) { h1 { font-size: 36px; } h4 { font-size: 20px; } h2 { font-size: 20px; } h3 { font-size: 16px; } p { font-size: 14px; } .author-container p { font-size: 10px; } pre { font-size: 10px; } .wrapper { max-width: calc(100vw - 30px); } .author-container { display: inline-block; width: 22%; margin: 0 1% 0 1%; } .img-left { display: block; text-align: center; width: 70%; margin-left: 15%; } .text-right { width: 100%; margin-left: 0px; } .sys-img { width: 100%; margin-left: 0; } .acknowledgement { font-size: 12px; } .credits { font-size: 10px; } .footer > div { max-width: calc(100vw - 30px); } }
+
+.gif-container, .img-container { text-align: center; margin-bottom: 15px; }
+
+.highlight { font-weight: bold; }
 
 /*# sourceMappingURL=styles.css.map */

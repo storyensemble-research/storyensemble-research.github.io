@@ -2,19 +2,19 @@
   affiliation: Univ of Toronto
   website: https://sanghosuh.github.io/
   img: sangho.jpg
-- name: Michael Lai
-  affiliation: Univ of Toronto
-  website: https://www.linkedin.com/in/michael-kp-lai/
-  img: michael.jpeg
-- name: Kevin Pu
-  affiliation: Univ of Toronto
-  website: https://kevinpjk.github.io/
-  img: kevin.png
-- name: Steven Dow
-  affiliation: UC San Diego
-  website: https://spdow.ucsd.edu/
-  img: steven.jpg
-- name: Tovi Grossman
-  affiliation: Univ of Toronto
-  website: https://www.tovigrossman.com/
-  img: tovi.jpg
+# - name: Michael Lai
+#   affiliation: Univ of Toronto
+#   website: https://www.linkedin.com/in/michael-kp-lai/
+#   img: michael.jpeg
+# - name: Kevin Pu
+#   affiliation: Univ of Toronto
+#   website: https://kevinpjk.github.io/
+#   img: kevin.png
+# - name: Steven Dow
+#   affiliation: UC San Diego
+#   website: https://spdow.ucsd.edu/
+#   img: steven.jpg
+# - name: Tovi Grossman
+#   affiliation: Univ of Toronto
+#   website: https://www.tovigrossman.com/
+#   img: tovi.jpg
