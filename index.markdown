@@ -247,8 +247,15 @@ The relatively more complex workflow below shows a number of techniques.
   <iframe src="https://www.youtube.com/embed/iDw0wBoQrxw?si=jkapov4PYZwxoixB&color=white&rel=0&modestlogo=1" id="yt-video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
+This workflow shows how you can steer solution ideas from a problem node and also steer the generation of images in a storyboard.
+<div class="video-wrapper">
+  <iframe src="https://www.youtube.com/embed/Q2TumFHae2Y?si=2la1tJ5GN9z9MYvv&color=white&rel=0&modestlogo=1" id="yt-video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
-
+This workflow shows how you can brainstorm feature ideas with AI.
+<div class="video-wrapper">
+  <iframe src="https://www.youtube.com/embed/73yv1CreIGI?si=ASOiDVz-ZhDqqqu0&color=white&rel=0&modestlogo=1" id="yt-video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 
 {% if site.video %}
