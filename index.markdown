@@ -84,7 +84,15 @@ The system offers nodes for different ideas: (C) persona nodes, (D) problem node
     <img src="/assets/img/storyensemble/start-brainstorming.png"  style="border: 1px solid"/>
   </div>
 </div>
+
 'Start brainstorming' button on the upper left corner generated chains of ideas shown above. Alternatively, you can click on the 'Add empty node' button to add individual empty nodes. 
+
+See it in action.
+
+<div class="video-wrapper">
+  <iframe src="https://www.youtube.com/embed/DRFfpwX5uhQ?si=ReXgCWtw8-pyoV87&amp;start=11&color=white&rel=0&modestlogo=1" id="yt-video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 
 ---
 <h2 id="node">2. Node: Content Structure & Features</h2>
@@ -107,6 +115,11 @@ Persona node: An (A) illustrative image, (B) name and (C) attributes which repre
 </div>
 By clicking the "Edit manually" button in the toolbar, users can manually edit the contents of a node using an interface with text fields, as shown in the above figure, with a similar interface applied across all node types.  
 
+See it in action.
+
+<div class="video-wrapper">
+  <iframe src="https://www.youtube.com/embed/nDgmP08xUNA?si=2M8aDpFQGpNPBouN&color=white&rel=0&modestlogo=1" id="yt-video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 These attributes can be filled in manually ("Edit manually") or generated using AI to assist with brainstorming user profiles.
 
