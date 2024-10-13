@@ -36,26 +36,30 @@ If you have additional questions, just grab me!
 
 ---
 
-<h2>Table of Contents</h2>
+<!-- <h2>Table of Contents</h2>
 <ol>
   <li>Basic</li>
   <ol>
     <li><a href="#components">Basic Components</a></li>
-    <li><a href="#components">Node Content</a></li>
+    <li><a href="#components">Node: Content Structure & Features</a></li>
   </ol>
   <li>Advanced</li>
   <ol>
     <li><a href="#propagation">Propagation Mechanisms</a></li>
   </ol>
   <li>Workflow Examples</li>
-  <ol>
-    <li></li>
-    <li></li>
-  </ol>
-</ol>
+</ol> -->
 
 
-<h2 id="components">I. Basic Components</h2>
+<!-- <h2>Table of Contents</h2>
+<ol>
+  <li>Basic Components</li>
+  <li>Node: Content Structure & Features</li>
+  <li>Workflow Examples</li>
+</ol> -->
+
+
+<h2 id="components">1. Basic Components</h2>
 
 <div style="text-align:-webkit-center">
   <div class="img-container" style="width: 60%">
@@ -168,17 +172,23 @@ See it in action.
   <iframe src="https://www.youtube.com/embed/iDw0wBoQrxw?si=33Y0ZQ82EENA_Jnh&amp;start=89&color=white&rel=0&modestlogo=1" id="yt-video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-
 ### View Feedback
 
+You can get AI-generated feedback on any node. 
 
 See it in action.
+<div class="video-wrapper">
+  <iframe src="https://www.youtube.com/embed/a577XkirrFQ?si=oEAk6404WaBGpVYm&amp;start=44&color=white&rel=0&modestlogo=1" id="yt-video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ### AI Suggestions
-You get AI suggestions in each node. 
+AI suggestions get generated in the revise tab of every node or when users try to generate more. 
 
 See it in action.
 
+<div class="video-wrapper">
+  <iframe src="https://www.youtube.com/embed/iDw0wBoQrxw?si=33Y0ZQ82EENA_Jnh&amp;start=89&color=white&rel=0&modestlogo=1" id="yt-video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 
 ### Forward Propagation
@@ -229,7 +239,7 @@ See it in action.
 
 
 ---
-<h2>Workflow Examples</h2>
+<h2>3. Workflow Examples</h2>
 
 This simple workflow below shows uploading images to each frame and also being able to use AI to generate images and set their style.
 <div class="video-wrapper">
