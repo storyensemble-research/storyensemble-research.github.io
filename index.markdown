@@ -7,21 +7,32 @@ Hello!
 
 I wrote this document for the UIST'24 workshop attendees. 
 
+---
+
 <strong>Motivation</strong>. 
-The system has many features, but we have limited time to go through them all during the workshop. I hope this document can answer any questions for those who want more explanations as they go through the prototyping session.
+The system has many features, but we have limited time to go through all of them during the workshop. I hope this document gives a nice walkthrough and answers any questions you may have.
 
 ---
 
-<h3 style="text-align:center">FAQs</h3>
+<h2 style="text-align:center">Quick Questions</h2>
 
-<strong>Q. What is it?</strong>
+<h3>Q. What is it?</h3>
 
-<span class="highlight">StoryEnsemble</span> is an interactive system designed to help users <i>rapidly</i> <strong>explore</strong> and <i>flexibly</i> <strong>iterate</strong> on personas, problem statements, solutions, and storyboards.
+<span class="highlight">StoryEnsemble</span> is an interactive system designed to help users <i>rapidly</i> <strong>explore</strong> and <i>flexibly</i> <strong>iterate</strong> on personas, problem statements, solutions, and storyboards. 
 
-<strong>Q. What does it do ?</strong>
+- It has AI-integrated features to help you brainstorm ideas and create storyboards. Thus, it is suitable for workshops like ours where we have limited time.
 
-<!-- <strong>Design Consideration: Manual vs AI-driven Workflow</strong><br> -->
-You can use AI to generate ideas persona, problem statement, it is designed to allow designers to not use AI at all and still leverage the design thinking procss.
+<h3>Q. Do we have to use AI?</h3>
+
+<strong>No</strong>. You can use it only when needed or not at all entirely. 
+
+- You can add your own ideas. Even create storyboards youself.
+- For example, you can upload a photo of your sketches to create a storyboard.
+
+
+<h4 style="text-align:center; margin-top: 30px;">
+If you have additional questions, just grab me!
+</h4>
 
 ---
 
@@ -29,8 +40,8 @@ You can use AI to generate ideas persona, problem statement, it is designed to a
 <ol>
   <li>Basic</li>
   <ol>
-    <li><a href="#components">UI & Components</a></li>
-    <li><a href="#components">Node</a></li>
+    <li><a href="#components">Basic Components</a></li>
+    <li><a href="#components">Node Content</a></li>
   </ol>
   <li>Advanced</li>
   <ol>
@@ -44,58 +55,199 @@ You can use AI to generate ideas persona, problem statement, it is designed to a
 </ol>
 
 
-<h2 id="components">I. Basic Components: 4 Types of Nodes - Persona, Problem, Solution, and Storyboard</h2>
+<h2 id="components">I. Basic Components</h2>
+
+<div style="text-align:-webkit-center">
+  <div class="img-container" style="width: 60%">
+    <img src="/assets/img/storyensemble/ideo-design-thinking.png"/>
+  </div>
+</div>
+StoryEnsemble offers four types of nodes, each corresponding to a stage of the design thinking process: (1) persona [Empathize]; (2) problem [Define]; (3) solution [Ideate]; and (4) storyboard [Prototype].
 
 <p>
-  StoryEnsemble offers four types of nodes, each corresponding to a stage of the design thinking process: (1) persona [Empathize]; (2) problem [Define]; (3) solution [Ideate]; and (4) storyboard [Prototype]. 
+   
 </p>
 
-<p>
-(A) includes buttons to generate chains of ideas (Start brainstorming) or add individual nodes (Add empty node). The system includes nodes for different ideas: (B) context node for grouping and labeling ideas, (C) persona nodes, (D) problem nodes, (E) solution nodes, and (F) a storyboard node. (G) Edges map the relationships and dependencies between different ideas, showing how ideas exert influence on dependent ideas throughout the system.
-</p>
+<div style="text-align:-webkit-center">
+  <div class="img-container" style="width: 60%; text-align: -webkit-center;">
+    <img src="/assets/img/storyensemble/four-nodes.png"/>
+  </div>
+</div>
+The system offers nodes for different ideas: (C) persona nodes, (D) problem nodes, (E) solution nodes, and (F) a storyboard node. (G) Edges map the relationships and dependencies between different ideas, showing how ideas exert influence on dependent ideas throughout the system.
 
-<div class="img-container">
-  <img src="/assets/img/storyensemble/system.png"/>
+<div style="text-align:-webkit-center">
+  <div class="img-container">
+    <img src="/assets/img/storyensemble/start-brainstorming.png"  style="border: 1px solid"/>
+  </div>
+</div>
+'Start brainstorming' button on the upper left corner generated chains of ideas shown above. Alternatively, you can click on the 'Add empty node' button to add individual empty nodes. 
+
+---
+<h2 id="node">2. Node: Content Structure & Features</h2>
+
+<h3 id="node">2-1. Persona, Problem, and Solution Nodes </h3>
+
+The three nodes---Persona, Problem, and Solution Nodes---are similar in its structure, but they differ in the types of attributes. For example, the persona node helps users define target users through attributes like name, location, needs, and challenges, as shown below.
+
+<div style="text-align:-webkit-center">
+  <div class="img-container" style="width:50%; text-align:center">
+    <img src="/assets/img/storyensemble/persona-node.png"/>
+  </div>
+</div>
+Persona node: An (A) illustrative image, (B) name and (C) attributes which represent a persona. Each node has (D) a toolbar for editing and creating related nodes.
+
+<div style="text-align:-webkit-center">
+  <div class="img-container" style="width:70%; text-align:center">
+    <img src="/assets/img/storyensemble/manual.png"/>  
+  </div>
+</div>
+By clicking the "Edit manually" button in the toolbar, users can manually edit the contents of a node using an interface with text fields, as shown in the above figure, with a similar interface applied across all node types.  
+
+
+These attributes can be filled in manually ("Edit manually") or generated using AI to assist with brainstorming user profiles.
+
+<h3 id="node">2-2. Storyboard Node </h3>
+
+Each storyboard includes (A) a title and multiple frames, where (B) each frame contains a specific type (e.g., Context, Problem, Solution, Resolution), an image, and a caption. Users can (C) open a panel to edit an existing frame or (D) add new frames to expand the narrative. (E) Settings allow users to customize the image style (e.g., digital-art, line-art, comic-book) and regenerate all storyboard images.
+<div style="text-align:-webkit-center">
+  <div class="img-container" style="width:100%; text-align:center">
+    <img src="/assets/img/storyensemble/storyboard-node.png"/>
+  </div>
+</div>
+
+A pop up panel appears when users click on the edit icon (see Fig. C in the above figure). Using the panel, users can edit a frame's type, description, and caption to regenerate the frame image or all images or remove the frame entirely. 
+<div style="text-align:-webkit-center">
+  <div class="img-container" style="width:40%; text-align:center">
+    <img src="/assets/img/storyensemble/storyboard-edit.png"/>
+  </div>
+</div>
+After users select 'Regenerate image,' the text in the description box is used as prompt to instruct what image gets generated for the frame.
+
+See it in action.
+<div class="video-wrapper">
+  <iframe src="https://www.youtube.com/embed/gUZwrPQrZHI?si=2pEjnL1Vw4_WvcDZ&amp;start=9&color=white&rel=0&modestlogo=1" id="yt-video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ---
-<h2 id="node">2. Node (e.g., Persona)</h2>
 
-The persona node helps users define target users through attributes like name, location, needs, and challenges. These can be filled in manually or generated using AI to assist with brainstorming user profiles.
+<h2 id="propagation">Features</h2>
 
-<div class="img-container" style="width:70%; text-align:center">
-  <img src="/assets/img/storyensemble/persona-node.png"/>
+### Revise with AI
+
+
+This feature allows users to update (A) idea content by providing (B) natural language prompts. (C) AI suggests instructions for iteration, and (D) revised content is automatically underlined for clarity.
+
+<div style="text-align:-webkit-center">
+  <div class="img-container" style="width:70%; text-align:center">
+    <img src="/assets/img/storyensemble/revise.png"/>
+  </div>
 </div>
-<p>
- Persona node: An (A) illustrative image, (B) name and (C) attributes which represent a persona. Each node has (D) a toolbar for editing and creating related nodes.
-</p>
+
+### Fill in Missing Values
+This feature supports brainstorming. When you have missing values in any node, you can ask AI to fill in these values. 
+
+See it in action.
+
+<div class="video-wrapper">
+  <iframe src="https://www.youtube.com/embed/iDw0wBoQrxw?si=4fvK8G3xoOdZlMVc&amp;start=18&color=white&rel=0&modestlogo=1" id="yt-video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 
+### Generate More
+Users can build on (A) a selected idea by (B) entering their own suggestions or (C) utilizing AI-generated recommendations. The system then generates (D) additional ideas to explore further possibilities.
+
+<div style="text-align:-webkit-center">
+  <div class="img-container" style="width:70%; text-align:center">
+    <img src="/assets/img/storyensemble/generate-more.png"/>
+  </div>
+</div>
+
+See it in action.
+
+<div class="video-wrapper">
+  <iframe src="https://www.youtube.com/embed/iDw0wBoQrxw?si=33Y0ZQ82EENA_Jnh&amp;start=89&color=white&rel=0&modestlogo=1" id="yt-video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 
----
+### View Feedback
 
-<h2 id="propagation">Propagation Mechanisms</h2>
+
+See it in action.
+
+### AI Suggestions
+You get AI suggestions in each node. 
+
+See it in action.
+
+
 
 ### Forward Propagation
+Users can cascade changes from an earlier design stage to a later stage (e.g., persona to problem statement) by (A) connecting the nodes with an edge or updating a connected node (Zero-waste Zach) and (B) refreshing the later artifact to generate (C) an updated artifact.
 
-<p>
-  Users can cascade changes from an earlier design stage to a later stage (e.g., persona to problem statement) by (A) connecting the nodes with an edge or updating a connected node (Zero-waste Zach, see Fig. \ref{fig:teaser}) and (B) refreshing the later artifact to generate (C) an updated artifact.
-</p>
-
-<div class="img-container" style="width:70%; text-align:center">
-  <img src="/assets/img/storyensemble/forward-propagation.png"/>
+<div style="text-align:-webkit-center">
+  <div class="img-container" style="width:60%; text-align:center">
+    <img src="/assets/img/storyensemble/forward-propagation.png"/>
+  </div>
 </div>
 
-### Backward Propagation
+See it in action.
 
-<p>
-  Users can cascade changes from a later design stage to an earlier stage (e.g., extract problem statement from a solution). By (A) connecting a solution to a problem, (B) a notification is displayed to refresh the problem which (C) updates the problem according to the solution.
-</p>
-
-<div class="img-container" style="width:70%; text-align:center">
-  <img src="/assets/img/storyensemble/backward-propagation.png"/>
+<div class="video-wrapper">
+  <iframe src="https://www.youtube.com/embed/iDw0wBoQrxw?si=zkPWRR_yF3hhsxxe&amp;start=140&color=white&rel=0&modestlogo=1" id="yt-video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+### Backpropagation
+
+
+Users can cascade changes from a <i>later</i> design stage to an <i>earlier</i> stage (e.g., extract problem statement from a solution). 
+
+By (A) connecting a solution to a problem, (B) a notification is displayed to refresh the problem which (C) updates the problem according to the solution.
+
+<div style="text-align:-webkit-center">
+  <div class="img-container" style="width:60%; text-align:center">
+    <img src="/assets/img/storyensemble/backward-propagation.png"/>
+  </div>
+</div>
+
+See it in action below.
+
+<div class="video-wrapper">
+  <iframe src="https://www.youtube.com/embed/iDw0wBoQrxw?si=AuUHBRPe90DjulIK&amp;start=57&color=white&rel=0&modestlogo=1" id="yt-video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+---
+<h2>Extra Features</h2>
+
+<h3>Download canvas & storyboard images</h3>
+You can download canvas & storyboard iamges. We ask you to upload it in the assigne GDrive folder at the end of the prototype session.
+
+See it in action.
+
+<div class="video-wrapper">
+  <iframe src="https://www.youtube.com/embed/_vdU11FSbIo?si=mmBsoTYX_PDE2yg_" id="yt-video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+
+---
+<h2>Workflow Examples</h2>
+
+This simple workflow below shows uploading images to each frame and also being able to use AI to generate images and set their style.
+<div class="video-wrapper">
+  <iframe src="https://www.youtube.com/embed/gUZwrPQrZHI?si=hL4eq9XU67WisDna&color=white&rel=0&modestlogo=1" id="yt-video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+The relatively more complex workflow below shows a number of techniques.
+
+- It shows using AI to fill in missing values. 
+- It shows generating a storyboard from a solution node.
+- It shows a backpropagation.
+- It also shows more feature to generate more solutions and more personas. 
+- It also shows connecting a node to another and propagate changes. 
+<div class="video-wrapper">
+  <iframe src="https://www.youtube.com/embed/iDw0wBoQrxw?si=jkapov4PYZwxoixB&color=white&rel=0&modestlogo=1" id="yt-video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+
 
 
 
@@ -104,6 +256,7 @@ The persona node helps users define target users through attributes like name, l
 ## Video Demo
 
 See <span class="sys-name">StoryEnsemble</span> in action in this Video Demo.
+
 
 <div class="video-wrapper">
   <iframe src="{{site.video}}&color=white&rel=0&modestlogo=1" id="yt-video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
