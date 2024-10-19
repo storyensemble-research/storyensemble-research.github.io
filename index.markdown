@@ -2,15 +2,10 @@
 layout: default
 ---
 
+## Abstract
 
-Hello!
 
-I wrote this document for the UIST'24 workshop attendees. 
-
----
-
-<strong>Motivation</strong>. 
-The system has many features, but we have limited time to go through all of them during the workshop. I hope this document gives a nice walkthrough and answers any questions you may have.
+Design thinking facilitates innovation through iterations and exploration of the problem and solution space. Yet, it is often practiced as a linear and non-iterative process due to the time-consuming and laborious nature of the involved tasks and the challenging nature of brainstorming ideas outside one's experience and getting timely feedback from target users. To bridge this gap and explore how generative AI can support design thinking, we developed StoryEnsemble, a system that leverages generative AI and node-link interface to enable an iterative, non-linear, and end-to-end workflow in design thinking. StoryEnsemble incorporates generative AI features that empower users to explore and iterate on personas, problem statements, solutions, and storyboards. An exploratory study with students, instructors, and practitioners shows that StoryEnsemble enhances the design process by enabling rapid exploration and flexible iteration. This work contributes to understanding the opportunities and challenges of using generative AI in design thinking.
 
 ---
 
@@ -28,11 +23,6 @@ The system has many features, but we have limited time to go through all of them
 
 - You can add your own ideas. Even create storyboards youself.
 - For example, you can upload a photo of your sketches to create a storyboard.
-
-
-<h4 style="text-align:center; margin-top: 30px;">
-If you have additional questions, just grab me!
-</h4>
 
 ---
 
