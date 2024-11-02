@@ -9,6 +9,10 @@ Design thinking facilitates innovation through iterations and exploration of the
 
 ---
 
+<div class="video-wrapper">
+  <iframe src="https://www.youtube.com/embed/GFQvOxZqWq0?si=sUvb45HvEegUIDWj&amp;start=11&color=white&rel=0&modestlogo=1" id="yt-video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 <h2 style="text-align:center">Quick Questions</h2>
 
 <h3>Q. What is it?</h3>
