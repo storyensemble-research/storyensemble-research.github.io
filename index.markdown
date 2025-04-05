@@ -18,8 +18,6 @@ Designers use storytelling — and storyboards in particular — to rapidly expl
 
 <span class="highlight">StoryEnsemble</span> is an interactive system designed to help users <i>rapidly</i> <strong>explore</strong> and <i>flexibly</i> <strong>iterate</strong> on personas, problem statements, solutions, and storyboards. 
 
-- It has AI-integrated features to help you brainstorm ideas and create storyboards. Thus, it is suitable for workshops like ours where we have limited time.
-
 <h3>Q. Do we have to use AI?</h3>
 
 <strong>No</strong>. You can use it only when needed or not at all entirely. 
