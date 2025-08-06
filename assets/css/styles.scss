@@ -211,6 +211,36 @@ pre {
   }
 }
 
+.button-arxiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 100px;
+  background-color: #000000;
+  color: #fff;
+  fill: #b51415;
+  font-size: 16px;
+  max-width: 140px;
+  width: 70px;
+  height: 23px;
+  
+  cursor: pointer;
+
+  &:visited {
+    color: #fff;
+  }
+  &:active {
+    color: #fff;
+  }
+  &:hover {
+    background-color: #b21a1b;
+    color: #b51415;
+    text-decoration: none;
+  }
+}
+
 .button-disabled {
   display: flex;
   justify-content: center;
