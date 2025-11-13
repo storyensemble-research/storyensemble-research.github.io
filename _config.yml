@@ -26,7 +26,8 @@ syscolor: "#555555"
 sysfont: Inter
 video: https://www.youtube.com/embed/UrcQA9NkQ38?si=STbP0wmExOKp8_1C
 system: https://d38tl9f2ingffg.cloudfront.net/
-paper: 'https://arxiv.org/abs/2508.03182'
+paper: 'https://dl.acm.org/doi/10.1145/3746059.3747772'
+arxiv: 'https://arxiv.org/abs/2508.03182'
 
 plugins:
   - jekyll-feed
